@@ -1,4 +1,4 @@
-NAME = comparison-of-values
+NAME = program-convert
 
 all: $(NAME).o
 	ld -s -o $(NAME) $(NAME).o
